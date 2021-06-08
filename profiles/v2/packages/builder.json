@@ -9,7 +9,7 @@
         "id": "1623174083125",
         "progress": 1,
         "state": "success",
-        "message": "6-9-2021 00:48 Build success in 21504 ms!",
+        "message": "6-9-2021 01:04 Build success in 6919 ms!",
         "options": {
           "packages": {
             "web-mobile": {
@@ -46,14 +46,14 @@
           ],
           "outputName": "web-mobile-002"
         },
-        "time": "6-9-2021 00:48",
+        "time": "6-9-2021 01:04",
         "dirty": false
       },
-      "1623174193540": {
-        "id": "1623174193540",
+      "1623175436278": {
+        "id": "1623175436278",
         "progress": 1,
         "state": "success",
-        "message": "6-9-2021 00:47 Build success in 25596 ms!",
+        "message": "6-9-2021 01:07 Build success in 5667 ms!",
         "options": {
           "packages": {
             "web-mobile": {
@@ -80,31 +80,66 @@
           "experimentalEraseModules": false,
           "compressTexture": true,
           "packAutoAtlas": true,
-          "startScene": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b",
+          "startScene": "9b7ed126-4e31-404c-a1bd-e5362526b21a",
           "scenes": [
             {
-              "url": "db://assets/scene.scene",
-              "uuid": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+              "url": "db://assets/lobby.scene",
+              "uuid": "9b7ed126-4e31-404c-a1bd-e5362526b21a"
             }
           ],
           "outputName": "web-mobile"
         },
-        "time": "6-9-2021 00:46",
-        "dirty": false
+        "time": "6-9-2021 01:07",
+        "dirty": true,
+        "rawOptions": {
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "4bb3a2",
+              "services": []
+            }
+          },
+          "name": "multiWindowTest",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "9b7ed126-4e31-404c-a1bd-e5362526b21a",
+          "scenes": [
+            {
+              "url": "db://assets/lobby.scene",
+              "uuid": "9b7ed126-4e31-404c-a1bd-e5362526b21a"
+            }
+          ],
+          "outputName": "web-mobile"
+        }
       }
     }
   },
   "common": {
     "scenes": [
       {
-        "url": "db://assets/scene.scene",
-        "uuid": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+        "url": "db://assets/lobby.scene",
+        "uuid": "9b7ed126-4e31-404c-a1bd-e5362526b21a"
       }
     ],
     "md5Cache": true,
     "mainBundleCompressionType": "merge_all_json",
     "outputName": "web-mobile",
     "platform": "web-mobile",
-    "startScene": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+    "startScene": "9b7ed126-4e31-404c-a1bd-e5362526b21a"
   }
 }
