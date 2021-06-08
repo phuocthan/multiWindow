@@ -1,0 +1,110 @@
+{
+  "__version__": "1.2.8",
+  "version": {
+    "builder": "1.2.3"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1623174083125": {
+        "id": "1623174083125",
+        "progress": 1,
+        "state": "success",
+        "message": "6-9-2021 00:48 Build success in 21504 ms!",
+        "options": {
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "4bb3a2",
+              "services": []
+            }
+          },
+          "name": "multiWindowTest",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "10850dbe-a917-4580-917c-62eed676680e",
+          "scenes": [
+            {
+              "url": "db://assets/game.scene",
+              "uuid": "10850dbe-a917-4580-917c-62eed676680e",
+              "inBundle": false
+            }
+          ],
+          "outputName": "web-mobile-002"
+        },
+        "time": "6-9-2021 00:48",
+        "dirty": false
+      },
+      "1623174193540": {
+        "id": "1623174193540",
+        "progress": 1,
+        "state": "success",
+        "message": "6-9-2021 00:47 Build success in 25596 ms!",
+        "options": {
+          "packages": {
+            "web-mobile": {
+              "orientation": "auto",
+              "polyfills": {
+                "asyncFunctions": true
+              }
+            },
+            "cocos-service": {
+              "configID": "4bb3a2",
+              "services": []
+            }
+          },
+          "name": "multiWindowTest",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "sourceMaps": false,
+          "replaceSplashScreen": false,
+          "mainBundleCompressionType": "merge_all_json",
+          "mainBundleIsRemote": false,
+          "mergeStartScene": false,
+          "experimentalEraseModules": false,
+          "compressTexture": true,
+          "packAutoAtlas": true,
+          "startScene": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+            }
+          ],
+          "outputName": "web-mobile"
+        },
+        "time": "6-9-2021 00:46",
+        "dirty": false
+      }
+    }
+  },
+  "common": {
+    "scenes": [
+      {
+        "url": "db://assets/scene.scene",
+        "uuid": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+      }
+    ],
+    "md5Cache": true,
+    "mainBundleCompressionType": "merge_all_json",
+    "outputName": "web-mobile",
+    "platform": "web-mobile",
+    "startScene": "3f5dfc25-8ddc-4a29-95db-82eeb27b589b"
+  }
+}

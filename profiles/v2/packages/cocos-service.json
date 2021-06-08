@@ -1,0 +1,17 @@
+{
+  "__version__": "3.0.0",
+  "options": {
+    "web-desktop": {
+      "configID": "4bb3a2",
+      "services": []
+    },
+    "web-mobile": {
+      "configID": "4bb3a2",
+      "services": []
+    }
+  },
+  "builder-options": {
+    "configID": "4bb3a2",
+    "services": []
+  }
+}
